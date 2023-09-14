@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5434459927425467635
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3348690226966828845}
+  m_Layer: 0
+  m_Name: P_island_cliff_lighthouse
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3348690226966828845
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5434459927425467635}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 652518560101181218}
+  - {fileID: 6745308033365186870}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1046118592159105225
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3348690226966828845}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: d47c62bcca403c94da0e1be24af8d1a9, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d47c62bcca403c94da0e1be24af8d1a9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d47c62bcca403c94da0e1be24af8d1a9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d47c62bcca403c94da0e1be24af8d1a9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d47c62bcca403c94da0e1be24af8d1a9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d47c62bcca403c94da0e1be24af8d1a9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d47c62bcca403c94da0e1be24af8d1a9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d47c62bcca403c94da0e1be24af8d1a9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d47c62bcca403c94da0e1be24af8d1a9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d47c62bcca403c94da0e1be24af8d1a9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d47c62bcca403c94da0e1be24af8d1a9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: d47c62bcca403c94da0e1be24af8d1a9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0bd965126b07f654ea8f5c5877c1f5b0, type: 2}
+    - target: {fileID: -503047588978759346, guid: d47c62bcca403c94da0e1be24af8d1a9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0bd965126b07f654ea8f5c5877c1f5b0, type: 2}
+    - target: {fileID: 877549597639532527, guid: d47c62bcca403c94da0e1be24af8d1a9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ac7ddb13fc168b142ad3f80034ba1ff2, type: 2}
+    - target: {fileID: 919132149155446097, guid: d47c62bcca403c94da0e1be24af8d1a9, type: 3}
+      propertyPath: m_Name
+      value: SM_island_cliff
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d47c62bcca403c94da0e1be24af8d1a9, type: 3}
+--- !u!4 &652518560101181218 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d47c62bcca403c94da0e1be24af8d1a9, type: 3}
+  m_PrefabInstance: {fileID: 1046118592159105225}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8907677006571141555
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3348690226966828845}
+    m_Modifications:
+    - target: {fileID: 2738831658555039877, guid: dc3249fda0181874bac73508052c1cdf, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2738831658555039877, guid: dc3249fda0181874bac73508052c1cdf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2738831658555039877, guid: dc3249fda0181874bac73508052c1cdf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 27.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 2738831658555039877, guid: dc3249fda0181874bac73508052c1cdf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -25.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2738831658555039877, guid: dc3249fda0181874bac73508052c1cdf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2738831658555039877, guid: dc3249fda0181874bac73508052c1cdf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2738831658555039877, guid: dc3249fda0181874bac73508052c1cdf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2738831658555039877, guid: dc3249fda0181874bac73508052c1cdf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2738831658555039877, guid: dc3249fda0181874bac73508052c1cdf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2738831658555039877, guid: dc3249fda0181874bac73508052c1cdf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2738831658555039877, guid: dc3249fda0181874bac73508052c1cdf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6119179637423100092, guid: dc3249fda0181874bac73508052c1cdf, type: 3}
+      propertyPath: m_Name
+      value: P_lighthouse
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dc3249fda0181874bac73508052c1cdf, type: 3}
+--- !u!4 &6745308033365186870 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2738831658555039877, guid: dc3249fda0181874bac73508052c1cdf, type: 3}
+  m_PrefabInstance: {fileID: 8907677006571141555}
+  m_PrefabAsset: {fileID: 0}
